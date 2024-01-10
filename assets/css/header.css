@@ -1,0 +1,76 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100% !important;
+    background-color: #d9d9d9 !important;
+    background-image: url('../img/header_bg.jpg') !important;
+    padding-inline: 30px;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0;
+    /* align-items: center;
+    justify-items: center; */
+}
+
+header > div:not(.img-container){
+    box-shadow: rgba(99, 99, 99, 0.539) 0px 2px 8px 0px;
+}
+.img-container > img{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+
+.img-container{
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    align-self: center;
+    justify-self: center;
+}
+
+header > div.card{
+    background: none;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    align-self: center;
+    justify-self: center;
+    border: none;
+    font-size: largera;
+}
+
+header > div.card > h3{
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+    font-size: 60px;
+}
+
+header ul.list-group > li{ 
+  background: none;
+  border: none;
+  background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.176) 0px 3px 3px;
+    font-weight: bold;
+    
+}
+
+
+
+
+header > div.domains-container{
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+    align-self: center;
+    justify-self: center;
+    font-size: smaller;
+}

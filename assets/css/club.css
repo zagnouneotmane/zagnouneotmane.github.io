@@ -1,0 +1,39 @@
+.shadow:hover {
+  cursor: pointer;
+  box-shadow: none !important;
+}
+
+@media (min-width: 300px) {
+  .shadow {
+    width: 295px !important;
+    height: 270px !important;
+    margin: 20px !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .shadow {
+    width: 327px !important;
+    height: 297px !important;
+    margin: 39px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .shadow {
+    width: 370px !important;
+    height: 322px !important;
+    margin: 39px !important;
+    padding: 23px !important;
+  }
+}
+
+.shadow {
+  transition: .5s all ease;
+}
+
+#asmae_pic {
+  width: 160px !important;
+  height: 160px !important;
+}
+
